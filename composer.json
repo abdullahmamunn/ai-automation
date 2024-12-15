@@ -1,0 +1,26 @@
+{
+    "name": "abdullah/ai-automation",
+    "description": "A PHP package for AI automation.",
+    "type": "library",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Abdullah Al Mamun",
+            "email": "almamun00021@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Abdullah\\AIAutomation\\": "src/"
+        }
+    },
+
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "license": "MIT"
+}
