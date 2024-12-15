@@ -33,7 +33,7 @@ class ComposerStaticInit7d357bee9a6938ec7809c4e5e64d8a07
         ),
         'A' => 
         array (
-            'Abdullah\\AIAutomation\\' => 22,
+            'AbdullahAI\\AIAutomation\\' => 24,
         ),
     );
 
@@ -67,7 +67,7 @@ class ComposerStaticInit7d357bee9a6938ec7809c4e5e64d8a07
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
-        'Abdullah\\AIAutomation\\' => 
+        'AbdullahAI\\AIAutomation\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

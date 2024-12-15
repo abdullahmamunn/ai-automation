@@ -1,6 +1,6 @@
 <?php
 
-namespace Abdullah\AIAutomation;
+namespace AbdullahAI\AIAutomation;
 
 use GuzzleHttp\Client;
 

@@ -1,5 +1,5 @@
 {
-    "name": "abdullah/ai-automation",
+    "name": "abdullah-ai/ai-automation",
     "description": "A PHP package for AI automation.",
     "type": "library",
     "version": "1.0.0",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Abdullah\\AIAutomation\\": "src/"
+            "AbdullahAI\\AIAutomation\\": "src/"
         }
     },
 
