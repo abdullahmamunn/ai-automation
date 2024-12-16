@@ -1,6 +1,6 @@
 {
     "name": "abdullah-ai/ai-automation",
-    "description": "A PHP package for AI automation.",
+    "description": "A PHP package for AI-driven automation and chat capabilities with OpenAI's GPT models.",
     "type": "library",
     "version": "1.0.0",
     "authors": [
