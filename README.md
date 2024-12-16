@@ -16,7 +16,8 @@
 ### Step 1: Install the Package
 Add the package to your Laravel or PHP project using Composer:
 ```bash
-composer require abdullah-ai/ai-automation
+composer require abdullah-ai/ai-automation:dev-master
+
 ```
 ---
 
