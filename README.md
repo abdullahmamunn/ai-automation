@@ -83,11 +83,12 @@ public function getAIResponse() {
 - Composer
 - GuzzleHTTP (^7.0)
 - Laravel (optional, for framework integration)
-- PHPUnit (^10.5 for development and testing
+- PHPUnit (^10.5 for development and testing)
 
 ---
 
 ## Author
 ### Abdullah Al Mamun
+
 For support or questions:
    📧 almamun00021@gmail.com
