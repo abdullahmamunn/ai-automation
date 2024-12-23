@@ -7,9 +7,11 @@ use GuzzleHttp\Client;
 class AIAutomation {
     private $apiKey;
     private $httpClient;
+    private $model;
 
-    public function __construct(string $apiKey) {
+    public function __construct(string $apiKey, string $model) {
         $this->apiKey = $apiKey;
+        $this->model = $model;
         $this->httpClient = new Client([
             'base_uri' => 'https://api.openai.com/v1/', // Base URI for OpenAI API
             'timeout'  => 30, // Request timeout
@@ -26,14 +28,14 @@ class AIAutomation {
         $endpoint = 'chat/completions'; // OpenAI Chat API endpoint
 
         $data = [
-            'model' => 'gpt-3.5-turbo', // Specify the model
+            'model' => $this->model, // Specify the model
             'messages' => [
                 ["role" => "system", "content" => "You are a helpful assistant."],
                 ["role" => "user", "content" => $prompt],
             ],
-            'max_tokens' => 50,
             'temperature' => 0,
         ];
+        
 
         $response = $this->makeApiCall($endpoint, $data);
 
