@@ -6,7 +6,7 @@
 
 ## Features
 - Send prompts to OpenAI's GPT models (e.g., `gpt-3.5-turbo`) and receive responses.
-- AI for chatbots, automation, and more.
+- AI for chatbots.
 - Designed for modern PHP applications, with support for `.env` configuration.
 
 ---
