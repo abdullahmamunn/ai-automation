@@ -40,21 +40,14 @@ Below is an example of how to use the AI Automation package in a Laravel project
 
 ```php
 use AbdullahAI\AIAutomation\AIAutomation;
-or
-require 'vendor/autoload.php';
 
 public function getAIResponse() {
     // Fetch the API key from the .env file
     $apiKey = env('AI_AUTOMATION_API_KEY');
-
     $model = 'gpt-3.5-turbo', // you can Specify the model
-
-    // Initialize the AIAutomation instance
     $automation = new AIAutomation($apiKey, $model);
 
-    // Example user prompt
     $prompt = "I have purchased a product but it is of poor quality.";
-
     // Get AI response
     $response = $automation->chatCompletion($prompt);
 
